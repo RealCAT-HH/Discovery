@@ -1,0 +1,12 @@
+#Draws a square, using the turtle module
+
+#Import the turtle commands to use below:
+import turtle
+
+#Create a turtle, named: mikaH
+mikaH = turtle.Turtle()
+
+#Repeat 4 times:
+for i in range(4):
+    mikaH.forward(100) #Move mikaH forward 100 steps
+    mikaH.left(90)     #Turn mikaH 90 degrees to the left
