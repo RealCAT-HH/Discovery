@@ -1,0 +1,13 @@
+#Date: February 04, 2023
+#This Program draws a pentadecagon (polygon with 15 sides).
+
+#Import the turle commands to use below:
+import turtle
+
+#Create a turle,: named: pentadecagon
+pentadecagon = turtle.Turtle()
+
+#Repeat 15 times:
+for i in range(15):
+    pentadecagon.forward(100) #Move pentadecagon forward 100 steps
+    pentadecagon.left(24)     #Turn pentadecagon 24 degrees to the left
